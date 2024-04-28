@@ -1,0 +1,1129 @@
+{
+    "search_metadata": {
+        "id": "662e58c6d5ecf4dd79b64126",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/ceba0f0c6bfe25f0/662e58c6d5ecf4dd79b64126.json",
+        "created_at": "2024-04-28 14:10:14 UTC",
+        "processed_at": "2024-04-28 14:10:15 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&q=Flights+to+HND+from+BEY+on+2024-05-01+through+2024-05-15",
+        "raw_html_file": "https://serpapi.com/searches/ceba0f0c6bfe25f0/662e58c6d5ecf4dd79b64126.html",
+        "prettify_html_file": "https://serpapi.com/searches/ceba0f0c6bfe25f0/662e58c6d5ecf4dd79b64126.prettify",
+        "total_time_taken": 1.49
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "hl": "en",
+        "gl": "us",
+        "departure_id": "BEY",
+        "arrival_id": "HND",
+        "outbound_date": "2024-05-01",
+        "return_date": "2024-05-15",
+        "currency": "USD"
+    },
+    "price_insights": {
+        "lowest_price": 971,
+        "price_level": "low",
+        "typical_price_range": [
+            1200,
+            1550
+        ],
+        "price_history": [
+            [
+                1709071200,
+                1307
+            ],
+            [
+                1709157600,
+                1322
+            ],
+            [
+                1709244000,
+                1322
+            ],
+            [
+                1709330400,
+                1326
+            ],
+            [
+                1709416800,
+                1311
+            ],
+            [
+                1709503200,
+                1326
+            ],
+            [
+                1709589600,
+                1311
+            ],
+            [
+                1709676000,
+                1310
+            ],
+            [
+                1709762400,
+                1310
+            ],
+            [
+                1709848800,
+                1312
+            ],
+            [
+                1709935200,
+                1326
+            ],
+            [
+                1710021600,
+                1326
+            ],
+            [
+                1710108000,
+                1326
+            ],
+            [
+                1710194400,
+                1326
+            ],
+            [
+                1710280800,
+                1339
+            ],
+            [
+                1710367200,
+                1339
+            ],
+            [
+                1710453600,
+                1362
+            ],
+            [
+                1710540000,
+                1362
+            ],
+            [
+                1710626400,
+                1339
+            ],
+            [
+                1710712800,
+                1339
+            ],
+            [
+                1710799200,
+                1310
+            ],
+            [
+                1710885600,
+                1310
+            ],
+            [
+                1710972000,
+                1310
+            ],
+            [
+                1711058400,
+                1325
+            ],
+            [
+                1711144800,
+                1325
+            ],
+            [
+                1711231200,
+                1325
+            ],
+            [
+                1711317600,
+                1325
+            ],
+            [
+                1711404000,
+                1325
+            ],
+            [
+                1711490400,
+                1325
+            ],
+            [
+                1711576800,
+                1325
+            ],
+            [
+                1711663200,
+                1325
+            ],
+            [
+                1711749600,
+                1243
+            ],
+            [
+                1711836000,
+                1303
+            ],
+            [
+                1711918800,
+                1310
+            ],
+            [
+                1712005200,
+                1196
+            ],
+            [
+                1712091600,
+                1195
+            ],
+            [
+                1712178000,
+                1200
+            ],
+            [
+                1712264400,
+                1204
+            ],
+            [
+                1712350800,
+                1205
+            ],
+            [
+                1712437200,
+                1261
+            ],
+            [
+                1712523600,
+                1005
+            ],
+            [
+                1712610000,
+                935
+            ],
+            [
+                1712696400,
+                935
+            ],
+            [
+                1712782800,
+                1050
+            ],
+            [
+                1712869200,
+                935
+            ],
+            [
+                1712955600,
+                935
+            ],
+            [
+                1713042000,
+                935
+            ],
+            [
+                1713128400,
+                935
+            ],
+            [
+                1713214800,
+                970
+            ],
+            [
+                1713301200,
+                1005
+            ],
+            [
+                1713387600,
+                1005
+            ],
+            [
+                1713474000,
+                1005
+            ],
+            [
+                1713560400,
+                1005
+            ],
+            [
+                1713646800,
+                1006
+            ],
+            [
+                1713733200,
+                971
+            ],
+            [
+                1713819600,
+                971
+            ],
+            [
+                1713906000,
+                971
+            ],
+            [
+                1713992400,
+                971
+            ],
+            [
+                1714078800,
+                971
+            ],
+            [
+                1714165200,
+                971
+            ],
+            [
+                1714251600,
+                971
+            ]
+        ]
+    },
+    "best_trips": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Beirut-Rafic Al Hariri International Airport",
+                        "id": "BEY",
+                        "time": "2024-05-01 20:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Cairo International Airport",
+                        "id": "CAI",
+                        "time": "2024-05-01 21:35"
+                    },
+                    "duration": 85,
+                    "airplane": "Boeing 737",
+                    "airline": "EgyptAir",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
+                    "travel_class": "Economy",
+                    "flight_number": "MS 712",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 81 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Cairo International Airport",
+                        "id": "CAI",
+                        "time": "2024-05-02 14:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Shanghai Pudong International Airport",
+                        "id": "PVG",
+                        "time": "2024-05-03 05:50"
+                    },
+                    "duration": 620,
+                    "airplane": "Airbus A350",
+                    "airline": "China Eastern",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MU.png",
+                    "travel_class": "Economy",
+                    "flight_number": "MU 224",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 585 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Shanghai Pudong International Airport",
+                        "id": "PVG",
+                        "time": "2024-05-03 11:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Haneda Airport",
+                        "id": "HND",
+                        "time": "2024-05-03 15:50"
+                    },
+                    "duration": 175,
+                    "airplane": "Boeing 787",
+                    "airline": "Shanghai Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FM.png",
+                    "travel_class": "Economy",
+                    "flight_number": "FM 895",
+                    "ticket_also_sold_by": [
+                        "China Eastern"
+                    ],
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 146 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 1015,
+                    "name": "Cairo International Airport",
+                    "id": "CAI",
+                    "overnight": true
+                },
+                {
+                    "duration": 365,
+                    "name": "Shanghai Pudong International Airport",
+                    "id": "PVG"
+                }
+            ],
+            "total_duration": 2260,
+            "carbon_emissions": {
+                "this_flight": 814000,
+                "typical_for_this_route": 860000,
+                "difference_percent": -5
+            },
+            "price": 971,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJTmtodlNFaHJSVFF0VXpCQlRWRjBORUZDUnkwdExTMHRMUzB0TFhaMGNYb3hNRUZCUVVGQlIxbDFWMDFuUW1Sa2ExVkJFaEZOVXpjeE1ueE5WVEl5Tkh4R1RUZzVOUm9MQ083MUJSQUNHZ05WVTBRNEhIRHU5UVU9IixbWyJCRVkiLCIyMDI0LTA1LTAxIiwiQ0FJIixudWxsLCJNUyIsIjcxMiJdLFsiQ0FJIiwiMjAyNC0wNS0wMiIsIlBWRyIsbnVsbCwiTVUiLCIyMjQiXSxbIlBWRyIsIjIwMjQtMDUtMDMiLCJITkQiLG51bGwsIkZNIiwiODk1Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Beirut-Rafic Al Hariri International Airport",
+                        "id": "BEY",
+                        "time": "2024-05-01 16:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-05-01 19:40"
+                    },
+                    "duration": 280,
+                    "airplane": "Airbus A330",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AF 565",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 290 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-05-01 22:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Haneda Airport",
+                        "id": "HND",
+                        "time": "2024-05-02 18:30"
+                    },
+                    "duration": 810,
+                    "airplane": "Boeing 777",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AF 274",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 833 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 140,
+                    "name": "Paris Charles de Gaulle Airport",
+                    "id": "CDG"
+                }
+            ],
+            "total_duration": 1230,
+            "carbon_emissions": {
+                "this_flight": 1124000,
+                "typical_for_this_route": 860000,
+                "difference_percent": 31
+            },
+            "price": 1386,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+            "departure_token": "WyJDalJJTmtodlNFaHJSVFF0VXpCQlRWRjBORUZDUnkwdExTMHRMUzB0TFhaMGNYb3hNRUZCUVVGQlIxbDFWMDFuUW1Sa2ExVkJFZ3RCUmpVMk5YeEJSakkzTkJvTENNcTZDQkFDR2dOVlUwUTRISERLdWdnPSIsW1siQkVZIiwiMjAyNC0wNS0wMSIsIkNERyIsbnVsbCwiQUYiLCI1NjUiXSxbIkNERyIsIjIwMjQtMDUtMDEiLCJITkQiLG51bGwsIkFGIiwiMjc0Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Beirut-Rafic Al Hariri International Airport",
+                        "id": "BEY",
+                        "time": "2024-05-01 01:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Hamad International Airport",
+                        "id": "DOH",
+                        "time": "2024-05-01 05:40"
+                    },
+                    "duration": 240,
+                    "airplane": "Airbus A320",
+                    "airline": "Qatar Airways",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+                    "travel_class": "Economy",
+                    "flight_number": "QR 419",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 197 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Hamad International Airport",
+                        "id": "DOH",
+                        "time": "2024-05-01 07:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Haneda Airport",
+                        "id": "HND",
+                        "time": "2024-05-01 23:55"
+                    },
+                    "duration": 640,
+                    "airplane": "Boeing 787",
+                    "airline": "JAL",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "JL 50",
+                    "ticket_also_sold_by": [
+                        "Qatar Airways"
+                    ],
+                    "legroom": "33 in",
+                    "extensions": [
+                        "Above average legroom (33 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 665 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 95,
+                    "name": "Hamad International Airport",
+                    "id": "DOH"
+                }
+            ],
+            "total_duration": 975,
+            "carbon_emissions": {
+                "this_flight": 863000,
+                "typical_for_this_route": 860000,
+                "difference_percent": 0
+            },
+            "price": 1436,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJTmtodlNFaHJSVFF0VXpCQlRWRjBORUZDUnkwdExTMHRMUzB0TFhaMGNYb3hNRUZCUVVGQlIxbDFWMDFuUW1Sa2ExVkJFZ3BSVWpReE9YeEtURFV3R2dzSW9PRUlFQUlhQTFWVFJEZ2NjS0RoQ0E9PSIsW1siQkVZIiwiMjAyNC0wNS0wMSIsIkRPSCIsbnVsbCwiUVIiLCI0MTkiXSxbIkRPSCIsIjIwMjQtMDUtMDEiLCJITkQiLG51bGwsIkpMIiwiNTAiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Beirut-Rafic Al Hariri International Airport",
+                        "id": "BEY",
+                        "time": "2024-05-01 19:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "time": "2024-05-02 00:35"
+                    },
+                    "duration": 235,
+                    "airplane": "Boeing 777",
+                    "airline": "Emirates",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EK 954",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 198 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "time": "2024-05-02 07:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Haneda Airport",
+                        "id": "HND",
+                        "time": "2024-05-02 22:35"
+                    },
+                    "duration": 595,
+                    "airplane": "Boeing 777",
+                    "airline": "Emirates",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EK 312",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 673 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 425,
+                    "name": "Dubai International Airport",
+                    "id": "DXB",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 1255,
+            "carbon_emissions": {
+                "this_flight": 872000,
+                "typical_for_this_route": 860000,
+                "difference_percent": 1
+            },
+            "price": 1496,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+            "departure_token": "WyJDalJJTmtodlNFaHJSVFF0VXpCQlRWRjBORUZDUnkwdExTMHRMUzB0TFhaMGNYb3hNRUZCUVVGQlIxbDFWMDFuUW1Sa2ExVkJFZ3RGU3prMU5IeEZTek14TWhvTENLU1FDUkFDR2dOVlUwUTRISENra0FrPSIsW1siQkVZIiwiMjAyNC0wNS0wMSIsIkRYQiIsbnVsbCwiRUsiLCI5NTQiXSxbIkRYQiIsIjIwMjQtMDUtMDIiLCJITkQiLG51bGwsIkVLIiwiMzEyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Beirut-Rafic Al Hariri International Airport",
+                        "id": "BEY",
+                        "time": "2024-05-01 22:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Istanbul Airport",
+                        "id": "IST",
+                        "time": "2024-05-02 00:05"
+                    },
+                    "duration": 120,
+                    "airplane": "Airbus A330",
+                    "airline": "Turkish Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TK 827",
+                    "legroom": "33 in",
+                    "extensions": [
+                        "Above average legroom (33 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 127 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Istanbul Airport",
+                        "id": "IST",
+                        "time": "2024-05-02 02:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Haneda Airport",
+                        "id": "HND",
+                        "time": "2024-05-02 19:20"
+                    },
+                    "duration": 680,
+                    "airplane": "Boeing 777",
+                    "airline": "Turkish Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TK 198",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 822 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 115,
+                    "name": "Istanbul Airport",
+                    "id": "IST"
+                }
+            ],
+            "total_duration": 915,
+            "carbon_emissions": {
+                "this_flight": 950000,
+                "typical_for_this_route": 860000,
+                "difference_percent": 10
+            },
+            "price": 1604,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+            "departure_token": "WyJDalJJTmtodlNFaHJSVFF0VXpCQlRWRjBORUZDUnkwdExTMHRMUzB0TFhaMGNYb3hNRUZCUVVGQlIxbDFWMDFuUW1Sa2ExVkJFZ3RVU3pneU4zeFVTekU1T0JvTENQTGtDUkFDR2dOVlUwUTRISER5NUFrPSIsW1siQkVZIiwiMjAyNC0wNS0wMSIsIklTVCIsbnVsbCwiVEsiLCI4MjciXSxbIklTVCIsIjIwMjQtMDUtMDIiLCJITkQiLG51bGwsIlRLIiwiMTk4Il1dXQ=="
+        }
+    ],
+    "other_trips": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Beirut-Rafic Al Hariri International Airport",
+                        "id": "BEY",
+                        "time": "2024-05-01 20:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Cairo International Airport",
+                        "id": "CAI",
+                        "time": "2024-05-01 21:35"
+                    },
+                    "duration": 85,
+                    "airplane": "Boeing 737",
+                    "airline": "EgyptAir",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
+                    "travel_class": "Economy",
+                    "flight_number": "MS 712",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 81 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Cairo International Airport",
+                        "id": "CAI",
+                        "time": "2024-05-02 14:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Shanghai Pudong International Airport",
+                        "id": "PVG",
+                        "time": "2024-05-03 05:50"
+                    },
+                    "duration": 620,
+                    "airplane": "Airbus A350",
+                    "airline": "China Eastern",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MU.png",
+                    "travel_class": "Economy",
+                    "flight_number": "MU 224",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 585 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Shanghai Pudong International Airport",
+                        "id": "PVG",
+                        "time": "2024-05-03 14:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Haneda Airport",
+                        "id": "HND",
+                        "time": "2024-05-03 18:30"
+                    },
+                    "duration": 170,
+                    "airplane": "Airbus A320",
+                    "airline": "China Eastern",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MU.png",
+                    "travel_class": "Economy",
+                    "flight_number": "MU 539",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Carbon emissions estimate: 162 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 1015,
+                    "name": "Cairo International Airport",
+                    "id": "CAI",
+                    "overnight": true
+                },
+                {
+                    "duration": 530,
+                    "name": "Shanghai Pudong International Airport",
+                    "id": "PVG"
+                }
+            ],
+            "total_duration": 2420,
+            "carbon_emissions": {
+                "this_flight": 829000,
+                "typical_for_this_route": 860000,
+                "difference_percent": -4
+            },
+            "price": 1041,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJTmtodlNFaHJSVFF0VXpCQlRWRjBORUZDUnkwdExTMHRMUzB0TFhaMGNYb3hNRUZCUVVGQlIxbDFWMDFuUW1Sa2ExVkJFaEZOVXpjeE1ueE5WVEl5Tkh4TlZUVXpPUm9MQ01hc0JoQUNHZ05WVTBRNEhIREdyQVk9IixbWyJCRVkiLCIyMDI0LTA1LTAxIiwiQ0FJIixudWxsLCJNUyIsIjcxMiJdLFsiQ0FJIiwiMjAyNC0wNS0wMiIsIlBWRyIsbnVsbCwiTVUiLCIyMjQiXSxbIlBWRyIsIjIwMjQtMDUtMDMiLCJITkQiLG51bGwsIk1VIiwiNTM5Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Beirut-Rafic Al Hariri International Airport",
+                        "id": "BEY",
+                        "time": "2024-05-01 22:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Istanbul Airport",
+                        "id": "IST",
+                        "time": "2024-05-02 00:05"
+                    },
+                    "duration": 120,
+                    "airplane": "Airbus A330",
+                    "airline": "Turkish Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TK 827",
+                    "legroom": "33 in",
+                    "extensions": [
+                        "Above average legroom (33 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 127 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Istanbul Airport",
+                        "id": "IST",
+                        "time": "2024-05-02 02:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Kansai International Airport",
+                        "id": "KIX",
+                        "time": "2024-05-02 19:00"
+                    },
+                    "duration": 660,
+                    "airplane": "Boeing 787",
+                    "airline": "Turkish Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TK 86",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 620 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Kansai International Airport",
+                        "id": "KIX",
+                        "time": "2024-05-03 07:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Haneda Airport",
+                        "id": "HND",
+                        "time": "2024-05-03 08:10"
+                    },
+                    "duration": 70,
+                    "airplane": "Boeing 787-10",
+                    "airline": "ANA",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "NH 94",
+                    "ticket_also_sold_by": [
+                        "Turkish Airlines"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 64 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 115,
+                    "name": "Istanbul Airport",
+                    "id": "IST"
+                },
+                {
+                    "duration": 720,
+                    "name": "Kansai International Airport",
+                    "id": "KIX",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 1685,
+            "carbon_emissions": {
+                "this_flight": 813000,
+                "typical_for_this_route": 860000,
+                "difference_percent": -5
+            },
+            "price": 1289,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJTmtodlNFaHJSVFF0VXpCQlRWRjBORUZDUnkwdExTMHRMUzB0TFhaMGNYb3hNRUZCUVVGQlIxbDFWMDFuUW1Sa2ExVkJFZzlVU3pneU4zeFVTemcyZkU1SU9UUWFDd2o2N2djUUFob0RWVk5FT0J4dyt1NEgiLFtbIkJFWSIsIjIwMjQtMDUtMDEiLCJJU1QiLG51bGwsIlRLIiwiODI3Il0sWyJJU1QiLCIyMDI0LTA1LTAyIiwiS0lYIixudWxsLCJUSyIsIjg2Il0sWyJLSVgiLCIyMDI0LTA1LTAzIiwiSE5EIixudWxsLCJOSCIsIjk0Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Beirut-Rafic Al Hariri International Airport",
+                        "id": "BEY",
+                        "time": "2024-05-01 20:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Hamad International Airport",
+                        "id": "DOH",
+                        "time": "2024-05-02 00:20"
+                    },
+                    "duration": 240,
+                    "airplane": "Boeing 787",
+                    "airline": "Qatar Airways",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+                    "travel_class": "Economy",
+                    "flight_number": "QR 427",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 154 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Hamad International Airport",
+                        "id": "DOH",
+                        "time": "2024-05-02 07:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Haneda Airport",
+                        "id": "HND",
+                        "time": "2024-05-02 23:55"
+                    },
+                    "duration": 640,
+                    "airplane": "Boeing 787",
+                    "airline": "JAL",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "JL 50",
+                    "ticket_also_sold_by": [
+                        "Qatar Airways"
+                    ],
+                    "legroom": "33 in",
+                    "extensions": [
+                        "Above average legroom (33 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 665 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 415,
+                    "name": "Hamad International Airport",
+                    "id": "DOH",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 1295,
+            "carbon_emissions": {
+                "this_flight": 820000,
+                "typical_for_this_route": 860000,
+                "difference_percent": -5
+            },
+            "price": 1346,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJTmtodlNFaHJSVFF0VXpCQlRWRjBORUZDUnkwdExTMHRMUzB0TFhaMGNYb3hNRUZCUVVGQlIxbDFWMDFuUW1Sa2ExVkJFZ3BSVWpReU4zeEtURFV3R2dzSStKb0lFQUlhQTFWVFJEZ2NjUGlhQ0E9PSIsW1siQkVZIiwiMjAyNC0wNS0wMSIsIkRPSCIsbnVsbCwiUVIiLCI0MjciXSxbIkRPSCIsIjIwMjQtMDUtMDIiLCJITkQiLG51bGwsIkpMIiwiNTAiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Beirut-Rafic Al Hariri International Airport",
+                        "id": "BEY",
+                        "time": "2024-05-01 16:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-05-01 19:40"
+                    },
+                    "duration": 280,
+                    "airplane": "Airbus A330",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AF 565",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 290 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-05-02 09:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Haneda Airport",
+                        "id": "HND",
+                        "time": "2024-05-03 05:55"
+                    },
+                    "duration": 810,
+                    "airplane": "Boeing 777",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AF 162",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 775 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 825,
+                    "name": "Paris Charles de Gaulle Airport",
+                    "id": "CDG",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 1915,
+            "carbon_emissions": {
+                "this_flight": 1066000,
+                "typical_for_this_route": 860000,
+                "difference_percent": 24
+            },
+            "price": 1359,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+            "departure_token": "WyJDalJJTmtodlNFaHJSVFF0VXpCQlRWRjBORUZDUnkwdExTMHRMUzB0TFhaMGNYb3hNRUZCUVVGQlIxbDFWMDFuUW1Sa2ExVkJFZ3RCUmpVMk5YeEJSakUyTWhvTENOeWxDQkFDR2dOVlUwUTRISERjcFFnPSIsW1siQkVZIiwiMjAyNC0wNS0wMSIsIkNERyIsbnVsbCwiQUYiLCI1NjUiXSxbIkNERyIsIjIwMjQtMDUtMDIiLCJITkQiLG51bGwsIkFGIiwiMTYyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Beirut-Rafic Al Hariri International Airport",
+                        "id": "BEY",
+                        "time": "2024-05-01 22:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "time": "2024-05-02 03:55"
+                    },
+                    "duration": 240,
+                    "airplane": "Boeing 737",
+                    "airline": "flydubai",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FZ.png",
+                    "travel_class": "Economy",
+                    "flight_number": "FZ 160",
+                    "ticket_also_sold_by": [
+                        "Emirates"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 186 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "time": "2024-05-02 07:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Haneda Airport",
+                        "id": "HND",
+                        "time": "2024-05-02 22:35"
+                    },
+                    "duration": 595,
+                    "airplane": "Boeing 777",
+                    "airline": "Emirates",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EK 312",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 673 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 225,
+                    "name": "Dubai International Airport",
+                    "id": "DXB",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 1060,
+            "carbon_emissions": {
+                "this_flight": 860000,
+                "typical_for_this_route": 860000,
+                "difference_percent": 0
+            },
+            "price": 1496,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJTmtodlNFaHJSVFF0VXpCQlRWRjBORUZDUnkwdExTMHRMUzB0TFhaMGNYb3hNRUZCUVVGQlIxbDFWMDFuUW1Sa2ExVkJFZ3RHV2pFMk1IeEZTek14TWhvTENLU1FDUkFDR2dOVlUwUTRISENra0FrPSIsW1siQkVZIiwiMjAyNC0wNS0wMSIsIkRYQiIsbnVsbCwiRloiLCIxNjAiXSxbIkRYQiIsIjIwMjQtMDUtMDIiLCJITkQiLG51bGwsIkVLIiwiMzEyIl1dXQ=="
+        }
+    ]
+}
