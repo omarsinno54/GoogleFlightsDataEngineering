@@ -7,11 +7,12 @@ It would be interesting to have a ready tool to analyze patterns in word frequen
 
 # ⏳ When will this project be finished?
 This project will be considered complete once the following features are added:
-- Ability to schedule jobs
+- Ability to run jobs with Apache Airflow
+- Features are portable
+- Dockerization
+- Diagram
 
 # 🗂️ Folder Structure
-
-
 ```
 + ---- config
     config.conf
