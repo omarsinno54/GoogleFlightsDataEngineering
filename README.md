@@ -5,17 +5,14 @@ In this project we build an ETL pipeline, that extracts data using the Google Fl
 
 It would be interesting to have a ready tool to analyze patterns in word frequency in different subreddits.
 
-# ⏳ When will this project be finished?
-This project will be considered complete once the following features are added:
-- Ability to run jobs with Apache Airflow
-- Features are portable
-- Dockerization
-- Diagram
-
 # 🗂️ Folder Structure
 ```
 + ---- config
     config.conf
++ ---- dags
+    flights_dag.py
++ ---- plugins
++ ---- logs
 + ---- data
     + --- input
     + --- output
@@ -72,15 +69,26 @@ flights_api_key = *api key*
 
 `utils`: contains a `constants.py` script, which uses the `ConfigParser` library to parse the config file defined earlier.
 
+`plugins`, `logs`, and `dags` are required to launch project on Apache Airflow, `dags` contains the Python script of the DAG involved in the pipeline tasks.
+
 # 🏃🏽‍♂️ How To Run
 
 1. First make sure to set the `config.conf` file as described above. 
 
-2. Using the terminal `cd` into `pipelines` and run the `flights_pipeline.py` script.
+2. Make sure to have `docker` and `docker compose` installed.
+   
+3. Run the following command to setup the postgres database:
 
 ```
-python3 flights_pipeline.py
+docker-compose up airflow-init
 ```
+
+4. Run the following command to spin up the containers in the background:
+```
+docker-compose up -d
+```
+
+5. Proceed to login to Apache Airflow webserver in `localhost` on port `8080`.
 
 # 🔧 Improvements to be added soon!
 1. Add data caching feature.
@@ -90,9 +98,7 @@ python3 flights_pipeline.py
    3. Filters
    4. Departure airpot
    5. Arrival airport
-3. Dockerize project.
-4. Use Apache Airflow for orchestration and visual web server.
-5. Load data on AWS.
+3. Load data on AWS.
 
 
 # ℹ️ Reference
