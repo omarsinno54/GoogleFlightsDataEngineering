@@ -10,7 +10,7 @@ sys.path.insert(0, root_dir)
 
 from etls.flights_etl import extract_flights_information, transform_to_csv
 
-def run_pipeline():
+def run_pipeline(kwargs):
 	""" 
 	    Get the flights JSON response. Transform its contents
 	    to CSV files regarding:
@@ -19,16 +19,6 @@ def run_pipeline():
 		- Search parameters
 		- Price insights
 	"""
-	kwargs = {
-	    	"engine": "google_flights",
-       		"departure_id": "BEY",
-        	"arrival_id": "HND",
-        	"outbound_date": "2024-05-01",
-        	"return_date": "2024-05-15",
-        	"currency": "USD",
-        	"hl": "en"
-	}
-
 	trajectory = f'{kwargs["departure_id"]}:{kwargs["arrival_id"]}'
 	search_date = datetime.now().strftime('%Y%m%d')
 
@@ -47,4 +37,4 @@ def run_pipeline():
 	return {'statusCode': 200}
 
 if __name__ == '__main__':
-	run_pipeline()
+	run_pipeline(kwargs)
