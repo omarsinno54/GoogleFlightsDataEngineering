@@ -10,7 +10,7 @@ sys.path.insert(0, root_dir)
 
 from etls.flights_etl import extract_flights_information, transform_to_csv
 
-def run_pipeline(kwargs):
+def run_pipeline(**kwargs):
 	""" 
 	    Get the flights JSON response. Transform its contents
 	    to CSV files regarding:
@@ -28,13 +28,23 @@ def run_pipeline(kwargs):
 	branch_dir = f'{trajectory}/{outbound_date}-{return_date}/{search_date}'
 
 	# Extract bronze data
-	response = extract_flights_information(branch_dir, kwargs)
+	flight_details = {
+        "engine": kwargs["engine"],
+        "departure_id": kwargs["departure_id"],
+        "arrival_id": kwargs["arrival_id"],
+        "outbound_date": kwargs["outbound_date"],
+        "return_date": kwargs["return_date"],
+        "currency": kwargs["currency"],
+        "hl": kwargs["hl"]
+	}
+
+	response = extract_flights_information(
+		branch_dir, 
+		flight_details
+	)
 
 	# Separate silver data
 	silver_output_dir = os.path.join(root_dir, f'data/output/{branch_dir}/silver')
 	transform_to_csv(response, silver_output_dir)
 
 	return {'statusCode': 200}
-
-if __name__ == '__main__':
-	run_pipeline(kwargs)

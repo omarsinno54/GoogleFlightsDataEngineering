@@ -23,7 +23,7 @@ with DAG(dag_id='google_flights_pipeline', default_args=default_args, schedule_i
         "engine": "google_flights",
         "departure_id": "BEY",
         "arrival_id": "HND",
-        "outbound_date": "2024-05-01",
+        "outbound_date": "2024-05-10",
         "return_date": "2024-05-15",
         "currency": "USD",
         "hl": "en"

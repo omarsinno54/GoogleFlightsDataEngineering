@@ -44,23 +44,25 @@ def get_api_request(
 
     return response.json()
 
-def extract_flights_information(branch_dir:str, kwargs:dict) -> dict:
+def extract_flights_information(branch_dir:str, flight_information:dict) -> dict:
     """
         Save extracted raw data
         as JSON file.
     """
-    outbound_date = kwargs['outbound_date']
+    outbound_date = flight_information['outbound_date']
     outbound_date = outbound_date.replace('-', '')
 
-    departure_id = kwargs['departure_id']
+    departure_id = flight_information['departure_id']
 
-    if 'return_date' in kwargs.keys():
-        return_date = kwargs['return_date']
+    if 'return_date' in flight_information.keys():
+        return_date = flight_information['return_date']
         return_date = return_date.replace('-', '')
     
-    arrival_id = kwargs['arrival_id']
+    arrival_id = flight_information['arrival_id']
 
-    response = get_api_request(**kwargs)
+    response = get_api_request(**flight_information)
+
+    print(response)
 
     response['best_trips'] = response['best_flights']
     del response['best_flights']
