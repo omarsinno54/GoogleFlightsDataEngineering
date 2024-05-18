@@ -1,0 +1,3 @@
+,da_name,da_id,da_time,aa_name,aa_id,aa_time,duration,airplane,airline,airline_logo,travel_class,flight_number,legroom,additional_information
+0,Beirut-Rafic Al Hariri International Airport,BEY,2024-05-10 20:20,Hamad International Airport,DOH,2024-05-11 00:20,240,Airbus A330,Qatar Airways,https://www.gstatic.com/flights/airline_logos/70px/QR.png,Economy,QR 427,31 in,"Average legroom (31 in), On-demand video, Carbon emissions estimate: 144 kg"
+0,Hamad International Airport,DOH,2024-05-11 07:15,Haneda Airport,HND,2024-05-11 23:55,640,Boeing 787,JAL,https://www.gstatic.com/flights/airline_logos/70px/JL.png,Economy,JL 50,33 in,"Above average legroom (33 in), Wi-Fi for a fee, In-seat power & USB outlets, On-demand video, Carbon emissions estimate: 665 kg"

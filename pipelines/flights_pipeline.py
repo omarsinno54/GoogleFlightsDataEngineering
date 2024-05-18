@@ -23,9 +23,6 @@ def run_pipeline(**kwargs):
 	search_date = datetime.now().strftime('%Y%m%d')
 
 	outbound_date = kwargs['outbound_date'].replace('-','')
-	return_date = kwargs['return_date'].replace('-', '')
-
-	branch_dir = f'{trajectory}/{outbound_date}-{return_date}/{search_date}'
 
 	# Extract bronze data
 	flight_details = {
@@ -33,10 +30,18 @@ def run_pipeline(**kwargs):
         "departure_id": kwargs["departure_id"],
         "arrival_id": kwargs["arrival_id"],
         "outbound_date": kwargs["outbound_date"],
-        "return_date": kwargs["return_date"],
         "currency": kwargs["currency"],
         "hl": kwargs["hl"]
 	}
+
+	# If one-way or return flight.
+	if 'return_date' in kwargs.keys():
+		return_date = kwargs['return_date'].replace('-', '')
+		branch_dir = f'{trajectory}/{outbound_date}-{return_date}/{search_date}'
+		
+		flight_details['return_date'] = kwargs['return_date']
+	else:
+		branch_dir = f'{trajectory}/{outbound_date}/{search_date}'
 
 	response = extract_flights_information(
 		branch_dir, 

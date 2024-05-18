@@ -90,16 +90,5 @@ docker-compose up -d
 
 5. Proceed to login to Apache Airflow webserver in `localhost` on port `8080`.
 
-# 🔧 Improvements to be added soon!
-1. Add data caching feature.
-2. Add arguments to modify:
-   1. Departure date
-   2. Return date (optional)
-   3. Filters
-   4. Departure airpot
-   5. Arrival airport
-3. Load data on AWS.
-
-
 # ℹ️ Reference
 1. SERP API documentation: https://serpapi.com/google-flights-api#api-parameters-search-query-departure-id

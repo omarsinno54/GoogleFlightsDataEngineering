@@ -17,12 +17,26 @@ def get_api_request(
             departure_id: str,
             arrival_id: str,
             outbound_date: str,
-            return_date: str,
-            currency: str,
-            hl: str
+            return_date: str = None,
+            currency: str = 'USD',
+            hl: str = 'en',
+            show_hidden: str = 'true'
         ) -> dict:
     """
         Send GET request to fetch flights.
+        Note that there are additional parameters that can be added to the API request
+        but that were ommitted. Check the references in the repo to check
+        the API docs. 
+
+        :param engine: Engine used to select FLIGHTS API filter of the google APIs.
+        :param departure_id: The IATA code for the departure airport.
+        :param arrival_id: The IATA code for the arrival airport.
+        :param outbound_date: The outbound date of the trip.
+        :param return_date OPTIONAL: The return date of the trip.
+        :param currency OPTIONAL: Defaults to USD, currency used to check price.
+        :param hl OPTIONAL: Defaults to en, host language used to check results.
+        :param show_hidden OPTIONAL: Defaults to true, shows hidden flights.
+        :return: dictionary of API request response.
     """
     url = "https://serpapi.com/search.json"
 
@@ -64,9 +78,11 @@ def extract_flights_information(branch_dir:str, flight_information:dict) -> dict
 
     print(response)
 
+    # Rename best_flights to best_trips
     response['best_trips'] = response['best_flights']
     del response['best_flights']
 
+    # Rename other_flights to other_trips
     response['other_trips'] = response['other_flights']
     del response['other_flights']
 
@@ -94,6 +110,9 @@ def extract_flights_information(branch_dir:str, flight_information:dict) -> dict
 def transform_flights(flights: list) -> list:
     """
         Reshape flights JSON file.
+
+        :param flights: List containing all the flights taken during the trip.
+        :return: list containing dictionaries that will be the entries in the larger CSV file.
     """
     # output_filenames = []
     data = []
@@ -127,9 +146,12 @@ def transform_flights(flights: list) -> list:
     # return columns, data, output_filenames
     return data
 
-def transform_layovers(layovers: list) -> dict:
+def transform_layovers(layovers: list) -> list:
     """
         Reshape layovers JSON file.
+
+        :param layovers: List containing all the information on the layovers information.
+        :return: list containing information regarding the layovers.
     """
     # output_filenames = []
     data = []
@@ -153,6 +175,13 @@ def transform_layovers(layovers: list) -> dict:
 def transform_trips(trips_json:list) -> dict:
     """
         Reshape trips JSON file.
+
+        :param trips_json:
+
+        :return:
+            flight_information : List containing lists, each sublist represents information on a flight.
+            layover_information: List containing lists, each sublist represents information on a layover.
+            trip_information   : List containing lists, each sublist represents information on a trip.
     """
     flight_information = []
     layover_information = []
@@ -183,7 +212,10 @@ def transform_trips(trips_json:list) -> dict:
 def generate_flight_csv(flights_json: dict, trips_output_dir:str, trip_category:str) -> None:
     """
         Helper function to generate flight CSVs.
-        : trip_category either [`best_flights`, `other_flights`]
+        :param flights_json: RAW JSON file containing flight information.
+        :param trips_output_dir: Directory where trips information are saved.
+        :param trip_category: String in either [`best_flights`, `other_flights`] representing the type of fliths.
+        :return: No response
     """
     flights_output_dir = os.path.join(trips_output_dir, 'flights')
     layovers_output_dir = os.path.join(trips_output_dir, 'layover')
@@ -247,9 +279,14 @@ def generate_flight_csv(flights_json: dict, trips_output_dir:str, trip_category:
         df.to_csv(tinfo_output_dir)
         print(df)
 
-def transform_to_csv(flights_json: dict, silver_output_dir: str):
+def transform_to_csv(flights_json: dict, silver_output_dir: str) -> None:
     """
         Decouple raw data into multiple csv.
+
+        :param flights_json: Raw JSON containing flights information.
+        :param silver_output_dir: Directory where to save the silver data.
+
+        :return: No response
     """
     # Search parameters
     ## This might want to be saved in logs
